@@ -11,9 +11,10 @@ Input: seats[] = {1, 2, 4}, N = 3
 Output: 9
 
 PERSON	EMPTY SEATS	TICKET COST
-1	1 2 4	4
-2	1 2 3	3
-3	1 2 2	2
+1	1 	2 	4	4
+2	1 	2 	3	3
+3	1 	2 	2	2
+
 4 + 3 + 2 = 9
 
 Input: seats[] = {2, 3, 5, 3}, N = 4
