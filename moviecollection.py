@@ -31,13 +31,3 @@ def max_amount(seats,tickets,amount=0):
  	    tickets = tickets - 1
 	    return max_amount(seats, tickets, amount)
 print max_amount(seats = [1,2,4], tickets = 3)
-def max_amount(seats,tickets,amount=0):
-	if tickets == 0:
-		return amount
-	else:
-            seats.sort()
-            amount = amount + seats[len(seats)-1]
-	    seats[len(seats)-1] = seats[len(seats)-1] - 1
- 	    tickets = tickets - 1
-	    return max_amount(seats, tickets, amount)
-print max_amount(seats = [1,2,4], tickets = 3)
