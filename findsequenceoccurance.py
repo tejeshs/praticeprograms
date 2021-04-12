@@ -10,11 +10,11 @@ while start < pointer and pointer < length:
         pointer = pointer + 1
     key = arr[start: pointer]
     if len(key) > 1:
-    	if test.has_key(key):
+    	if test.__contains__(key):
         	test[key] = test[key] + 1
     	else:
         	test[key] = 1
     start = pointer
     pointer = pointer + 1
     temp = 98
-print test
+print(test)
