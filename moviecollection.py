@@ -19,6 +19,7 @@ PERSON	EMPTY SEATS	TICKET COST
 
 Input: seats[] = {2, 3, 5, 3}, N = 4
 Output: 15
+comment
 */
 
 
