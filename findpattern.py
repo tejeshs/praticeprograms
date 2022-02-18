@@ -4,6 +4,7 @@ Examples:
 “caabb” – false
 “abababab” – true
 “aaabbbb” – false
+“caabb” – false
 "caabbb" - false
 Also,consider the input array having other characters than ‘a’ and ‘b’ as well.
 */
