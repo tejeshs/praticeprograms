@@ -31,5 +31,6 @@ def max_amount(seats,tickets,amount=0):
             amount = amount + seats[len(seats)-1]
 	    seats[len(seats)-1] = seats[len(seats)-1] - 1
  	    tickets = tickets - 1
+	    tickets = tickets - 1
 	    return max_amount(seats, tickets, amount)
 print max_amount(seats = [1,2,4], tickets = 3)

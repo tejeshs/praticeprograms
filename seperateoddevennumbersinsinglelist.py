@@ -4,6 +4,7 @@ left=0
 right=len(arr)-1
 while left < right:
    while arr[left] % 2 == 0 and left < right:
+	 left=left+1
       left=left+1
       
    while arr[right] % 2 !=0 and left < right:
