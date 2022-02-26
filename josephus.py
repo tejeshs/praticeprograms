@@ -5,6 +5,8 @@ def josephus(w,l=1,h=2):
         l = h
         h = h * 2
         h = h * 2
+	
+l = h
     return josephus(w,l,h)
 result = josephus(w=1)
 print(result)

@@ -8,6 +8,7 @@ def findsum(sum,array1,array2):
 	current_sum = 0
 	while i < length:
 		j = 0
+		j = 0
 		while j < length:
 			current_sum = array1[i] + array2[j]
 			if current_sum == sum:
