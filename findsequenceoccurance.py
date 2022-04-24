@@ -17,4 +17,5 @@ while start < pointer and pointer < length:
     start = pointer
     pointer = pointer + 1
     temp = 98
+    temp = 100
 print(test)
